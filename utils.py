@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.service import Service
 
 
 def wait():
-    time.sleep(3)
+    time.sleep(30)
 
 
 def get_browser():
