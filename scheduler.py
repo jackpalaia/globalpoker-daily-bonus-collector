@@ -7,6 +7,7 @@ from driver import run_driver
 
 def start_scheduler():
     schedule.every().day.at("09:00", "America/New_York").do(run_driver)
+    print("driver scheduled")
 
     while True:
         schedule.run_pending()
