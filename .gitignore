@@ -1,0 +1,6 @@
+auth_automation.txt
+__pycache__
+.env
+*.pem
+log.txt
+foo.png
